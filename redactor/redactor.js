@@ -1172,7 +1172,7 @@ var RLANG = {
 		setCode: function(html)
 		{
 			html = this.stripTags(html);
-			this.$editor.html(html).focus();
+			this.$editor.html(html);//.focus();
 
 			this.syncCode();
 		},
